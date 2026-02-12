@@ -1,0 +1,12 @@
+{
+  "extends": "./shared/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@library/*": ["packages/*/src"]
+    }
+  },
+  "references": [
+    { "path": "packages/ttl-cache" }
+  ]
+}

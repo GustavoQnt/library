@@ -1,0 +1,62 @@
+{
+  "name": "@GustavoQnt/ttl-cache",
+  "version": "0.1.0",
+  "description": "In-memory TTL cache with LRU eviction, stale-while-revalidate, and request deduplication. Zero dependencies.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "bench": "vitest bench --run",
+    "bench:watch": "vitest bench"
+  },
+  "keywords": [
+    "cache",
+    "ttl",
+    "lru",
+    "stale-while-revalidate",
+    "swr",
+    "dedup",
+    "in-memory",
+    "typescript"
+  ],
+  "author": {
+    "name": "Breno Quintela",
+    "url": "https://github.com/GustavoQnt"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GustavoQnt/library",
+    "directory": "packages/ttl-cache"
+  },
+  "homepage": "https://github.com/GustavoQnt/library/tree/main/packages/ttl-cache#readme",
+  "bugs": {
+    "url": "https://github.com/GustavoQnt/library/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
