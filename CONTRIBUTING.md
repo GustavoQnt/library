@@ -1,46 +1,58 @@
 # Contributing
 
-Thanks for your interest in contributing. This guide describes how to propose
-changes and get them merged smoothly.
+Thanks for contributing to this project.
 
-## Quick Start
-1. Fork the repo and create a branch from `main`.
-2. Make your changes with tests and documentation as needed.
-3. Run tests locally.
-4. Open a pull request (PR) with a clear description.
+## Project Type
+This is a TypeScript monorepo using `pnpm` workspaces (not .NET).
 
-## Development Setup
-This project is a .NET solution. Typical setup:
-1. Install the .NET SDK (version listed in the repo if applicable).
-2. Restore dependencies:
-   - `dotnet restore`
+## Prerequisites
+- Node.js `>=18` (Node 20+ recommended)
+- `pnpm` (via Corepack recommended)
+
+## Setup
+1. Fork and clone the repository.
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+
+## Local Checks
+Run these before opening a PR:
+
+1. Tests:
+   ```bash
+   pnpm test
+   ```
+2. Typecheck:
+   ```bash
+   pnpm typecheck
+   ```
 3. Build:
-   - `dotnet build`
-4. Test:
-   - `dotnet test`
+   ```bash
+   pnpm build
+   ```
+4. Benchmarks (optional, for performance changes):
+   ```bash
+   pnpm bench
+   ```
 
-## Branching and PRs
-- Use short, descriptive branch names (e.g., `fix-api-timeout`).
-- Keep PRs focused on a single topic.
-- Update or add tests for any behavior change.
-- If you change public behavior, update documentation as well.
+## Pull Requests
+1. Create a branch from `main`.
+2. Keep PRs focused and small.
+3. Add or update tests for behavior changes.
+4. Update docs when API or behavior changes.
+5. Explain what changed and why in the PR description.
 
-## Commit Style
-- Write clear, concise commit messages.
-- If possible, reference relevant issues.
-
-## Code Review
-We review PRs for correctness, clarity, and maintainability. Please be ready to
-iterate based on feedback.
+## Commit Messages
+- Use clear, concise commit messages.
+- Reference issues when relevant.
 
 ## Reporting Bugs
 Open an issue with:
-- A concise title and description
-- Steps to reproduce
+- Reproduction steps
 - Expected vs actual behavior
-- Environment details
+- Node version and OS
 
-## Security Issues
-Do not open public issues for security vulnerabilities. See `SECURITY.md` for
-reporting instructions.
-
+## Security
+Do not report vulnerabilities in public issues.
+Follow `SECURITY.md` for private reporting.
