@@ -1,5 +1,5 @@
 {
-  "name": "@GustavoQnt/ttl-cache",
+  "name": "@gustavoqnt/ttl-cache",
   "version": "0.1.0",
   "description": "In-memory TTL cache with LRU eviction, stale-while-revalidate, and request deduplication. Zero dependencies.",
   "type": "module",
@@ -60,3 +60,4 @@
     "node": ">=18"
   }
 }
+
