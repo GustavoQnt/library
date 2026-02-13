@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2026-02-13
+
+### Changed
+- Updated root README branding and badges for `@gustavoqnt/ttl-cache`:
+  - npm version
+  - npm downloads
+  - CI status
+  - license
+- Added automated traffic dashboard in root `README.md` (views + clones only).
+- Added scheduled/manual GitHub Action to fetch traffic and persist history in `.github/traffic/history.json`.
+- Added tracking start-date filter (`2026-02-12`) for dashboard totals.
+
 ## [0.1.0] - 2026-02-11
 
 ### Added
@@ -40,4 +52,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Timer is `unref()`'d in Node.js (won't keep process alive)
 
 [0.1.0]: https://github.com/GustavoQnt/library/releases/tag/ttl-cache-v0.1.0
+[0.1.1]: https://github.com/GustavoQnt/library/releases/tag/ttl-cache-v0.1.1
 
