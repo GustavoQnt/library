@@ -16,7 +16,7 @@ Totals since 2026-02-12: **0 views** and **0 clones**.
 |---|---:|---:|
 | pending first workflow run | 0 | 0 |
 
-_Updated automatically: pending first workflow run_
+_Updated automatically: 2026-02-13T22:14:35.802Z_
 <!-- TRAFFIC_END -->
 
 In-memory TTL cache with LRU eviction, stale-while-revalidate (SWR), and request deduplication. TypeScript-first, zero dependencies.
