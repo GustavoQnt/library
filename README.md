@@ -5,13 +5,26 @@
 
 GitHub traffic snapshot (rolling window reported by GitHub API).
 
-Last 14 days totals: **0 views** (0 unique) and **0 clones** (0 unique).
+Last 14 days totals: **75 views** (2 unique) and **161 clones** (58 unique).
 
 | Date | Views | Unique Views | Clones | Unique Clones |
 |---|---:|---:|---:|---:|
-| pending first workflow run | 0 | 0 | 0 | 0 |
+| 2026-02-12 | 75 | 2 | 161 | 58 |
+| 2026-02-11 | 0 | 0 | 0 | 0 |
+| 2026-02-10 | 0 | 0 | 0 | 0 |
+| 2026-02-09 | 0 | 0 | 0 | 0 |
+| 2026-02-08 | 0 | 0 | 0 | 0 |
+| 2026-02-07 | 0 | 0 | 0 | 0 |
+| 2026-02-06 | 0 | 0 | 0 | 0 |
+| 2026-02-05 | 0 | 0 | 0 | 0 |
+| 2026-02-04 | 0 | 0 | 0 | 0 |
+| 2026-02-03 | 0 | 0 | 0 | 0 |
+| 2026-02-02 | 0 | 0 | 0 | 0 |
+| 2026-02-01 | 0 | 0 | 0 | 0 |
+| 2026-01-31 | 0 | 0 | 0 | 0 |
+| 2026-01-30 | 0 | 0 | 0 | 0 |
 
-_Updated automatically: pending first workflow run_
+_Updated automatically: 2026-02-13T22:14:35.802Z_
 <!-- TRAFFIC_END -->
 
 In-memory TTL cache with LRU eviction, stale-while-revalidate (SWR), and request deduplication. TypeScript-first, zero dependencies.
