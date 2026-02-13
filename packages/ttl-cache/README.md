@@ -5,20 +5,6 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/GustavoQnt/library/ci.yml?branch=main&style=flat-square)](https://github.com/GustavoQnt/library/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
 
-<!-- TRAFFIC_START -->
-## Traffic Dashboard
-
-GitHub traffic snapshot (rolling window reported by GitHub API).
-
-Last 14 days totals: **0 views** (0 unique) and **0 clones** (0 unique).
-
-| Date | Views | Unique Views | Clones | Unique Clones |
-|---|---:|---:|---:|---:|
-| pending first workflow run | 0 | 0 | 0 | 0 |
-
-_Updated automatically: pending first workflow run_
-<!-- TRAFFIC_END -->
-
 In-memory TTL cache with LRU eviction, stale-while-revalidate (SWR), and request deduplication. TypeScript-first, zero dependencies.
 
 ---
