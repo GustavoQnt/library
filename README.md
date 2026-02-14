@@ -16,7 +16,7 @@ Totals since 2026-02-12: **75 views** and **161 clones**.
 |---|---:|---:|
 | 2026-02-12 | 75 | 161 |
 
-_Updated automatically: 2026-02-13T22:25:49.397Z_
+_Updated automatically: 2026-02-14T04:52:06.347Z_
 <!-- TRAFFIC_END -->
 
 In-memory TTL cache with LRU eviction, stale-while-revalidate (SWR), and request deduplication. TypeScript-first, zero dependencies.
