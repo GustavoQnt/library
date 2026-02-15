@@ -3,7 +3,7 @@
 Thanks for contributing to this project.
 
 ## Project Type
-This is a TypeScript monorepo using `pnpm` workspaces (not .NET).
+This is a TypeScript monorepo using `pnpm` workspaces.
 
 ## Prerequisites
 - Node.js `>=18` (Node 20+ recommended)
